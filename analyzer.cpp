@@ -1,10 +1,12 @@
 // Created by tanvi on 10/4/2024.
-//
+//Lab Partner Haoran Shi
 #include <iostream>
 #include <vector>
 #include <chrono>
 #include "StringData.h"
 
+
+//Linear Search Algorithm
 int linear_search(const std::vector<std::string>& container, const std::string& element)
 {
 
@@ -20,6 +22,7 @@ int linear_search(const std::vector<std::string>& container, const std::string& 
     return -1;
 }
 
+//Binary Search Algorithm
 int binary_search(const std::vector<std::string>& container, const std::string& element)
 {
     int low = 0;
@@ -44,6 +47,7 @@ int binary_search(const std::vector<std::string>& container, const std::string& 
     return -1;
 }
 
+//Main method, records times for each search algorithm with different strings
 int main()
 {
     std::cout<<"Searching for 'not_here':"<< std::endl;
