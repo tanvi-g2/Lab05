@@ -18,7 +18,7 @@ int linear_search(const std::vector<std::string>& container, const std::string& 
 
         }
     }
-
+//if element not in container
     return -1;
 }
 
@@ -43,6 +43,7 @@ int binary_search(const std::vector<std::string>& container, const std::string& 
             high = mid - 1;
         }
     }
+//if element not in container
 
     return -1;
 }
@@ -90,3 +91,4 @@ int main()
     std::cout<<"Binary Search Run Time: "<<runTime5.count()<< "\n"<< std::endl;
     return 0;
 }
+
