@@ -9,7 +9,7 @@
 //Linear Search Algorithm
 int linear_search(const std::vector<std::string>& container, const std::string& element)
 {
-    int lol = 0;
+    
     for(int i = 0; i < container.size(); i++)
     {
         if(container[i] == element){
@@ -18,7 +18,7 @@ int linear_search(const std::vector<std::string>& container, const std::string& 
 
         }
     }
-//if element not in container
+
     return -1;
 }
 
@@ -43,7 +43,6 @@ int binary_search(const std::vector<std::string>& container, const std::string& 
             high = mid - 1;
         }
     }
-//if element not in container
 
     return -1;
 }
